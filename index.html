@@ -49,18 +49,7 @@ h1 {
 }
     </style>
     <div class="container">
-  <div>One</div>
-  <div>Two</div>
-  <div>Three</div>
-  <div>Four</div>
-  <div>Five</div>
-  <div>Six</div>
-  <div>Seven</div>
-</div>
-</layout>
-    
-     <script>
-        // Ensure code runs after DOM elements exist
+  <div> // Ensure code runs after DOM elements exist
         document.addEventListener('DOMContentLoaded', function() {
             const iframe = document.getElementById('roninvid');
             const player = new Vimeo.Player(iframe);
@@ -76,8 +65,15 @@ h1 {
             iframe.addEventListener('mouseleave', function() {
                 player.pause();
             });
-        });
-    </script>
+        });</div>
+  <div>Two</div>
+  <div>Three</div>
+  <div>Four</div>
+  <div>Five</div>
+  <div>Six</div>
+  <div>Seven</div>
+</div>
+</layout>
 
  
           <iframe id="roninvid" src="https://player.vimeo.com/video/1216589613?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; " referrerpolicy="strict-origin-when-cross-origin" >
