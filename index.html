@@ -35,22 +35,28 @@ h1 {
 <layout>
     <style>
     body
- {
   font-family: sans-serif;
 }
 .container > div {
- 
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(207 232 220);
+  border: 2px solid rgb(79 185 227);
+};
 }
+
 .container {
   display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 1fr 2fr 1fr;
 }
     </style>
     <div class="container">
   <div> 
      <iframe id="roninvid" src="https://player.vimeo.com/video/1216589613?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; " referrerpolicy="strict-origin-when-cross-origin" >
   </div>
-  <div>Two</div>
+  <div>
+      <iframe id="roninvid" src="https://player.vimeo.com/video/1216589613?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; " referrerpolicy="strict-origin-when-cross-origin" >
+  </div>
   <div>Three</div>
   <div>Four</div>
   <div>Five</div>
